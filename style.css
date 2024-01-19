@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+*{
+    margin: 0;
+}
+
+body{
+    background: #040814;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.enter{
+    float: right;
+    margin: 10px 60px;
+    width: 110px;
+    height: 50px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    font-size: 1.15em;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.enter:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+.heroText{
+    color: whitesmoke;
+    font-size:40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imagemAolado{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.text button {
+    background-color: #6421FF;
+    border: none;
+    color: whitesmoke;
+    border-radius: 5px;
+    width: 38rem;
+    height: 4rem;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.text button:hover{
+    background-color: #7828FF;
+}
+
+.text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left:4rem;
+}
+
+.reais{
+    margin-top: 1.1rem;
+    background-color: #6421FF;
+}
+
+.reais:hover{
+    background-color: #7828FF;
+}
+
+.somentedisney{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+
+.plano{
+    text-align: center;
+    
+}
+
+.beneficios{
+    margin-left: 11rem;
+    margin-right: 9rem;
+    padding: 0px 4rem;
+}
+
+.escolha{
+    margin-top: 8rem;
+    color: white;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold
+}
+
+.cancelar{
+    color: #C0C0C0;
+}
+
+.beneficios tr th{
+    width: 28%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    border-top: 1px solid gray;
+}
+
+
+
+.beneficios, tr, th, td{
+    border-collapse: collapse;
+}
+
+.beneficios tr td{
+    color: #C0C0C0;
+    width: 30%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom: 1px solid whitesmoke;
+    
+}
+
+.beneficios tr th:first-child{
+    width: 42%;
+    border-top: none;
+}
+
+.beneficios tr td:first-child{
+    width: 42%;
+}
+
+.beneficios tr td:nth-child(2){
+    text-align: center;
+    color: whitesmoke;
+}
+
+.beneficios th{
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  background-color: #040814;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.imagem{
+    width:50%;
+}
+
+.disney_tabela{
+    padding-bottom: 1.5rem;
+    color: whitesmoke;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.beneficios button{
+    width: 80%;
+    height: 3rem;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke
+}
+.real{
+    background-color: #0268F0;
+}
+
+.real:hover{
+    background-color: #0062e2;
+}
+
+.text1{
+    text-align: center;
+    z-index: -1;
+}
+
+.beneficios tr td button{
+    width: 100%;
+    color: white;
+    background-color: #0268F0;
+}
+
+.beneficios tr td button:hover{
+    color: white;
+    background-color: #0062e2;
+}
+
+.beneficios tr th:last-child{
+    background-color: #1D1F2B;
+}
+
+.beneficios tr td:last-child{
+    background-color: #1D1F2B;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.aviso{
+    color: #C0C0C0;
+    margin-left:11rem;
+    font-size: italic;
+    font-size:small;
+}
+
+.AssistaDoSeuJeito{
+    margin-top: 20rem;
+    display: flex;
+    align-items: center;
+    margin-left: 7rem;
+    margin-right: 3rem;
+}
+
+.AssistaDoSeuJeito h1{
+    color: whitesmoke;
+}
+
+.AssistaDoSeuJeito h2{
+    color: #C0C0C0;
+    font-weight: normal;
+    font-size: larger;
+}
+
+.OriginaisDisney h1{
+    margin-top: 9rem;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.OriginaisDisney h2{
+    color: #C0C0C0;
+    text-align: center;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.Filmes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Filmes img{
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.PerguntasFrequentes{
+    margin-top: 10rem;
+    color: whitesmoke;
+    text-align: center;
+}
