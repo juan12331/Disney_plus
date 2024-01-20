@@ -263,3 +263,33 @@ body{
     color: whitesmoke;
     text-align: center;
 }
+
+.botaofuncional{
+    background-color: #13151D;
+    height: 4.5rem;
+    width: 75rem;
+    margin: 1rem 5rem;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+        span{
+            margin-left: 53rem;
+            font-size: 2.3rem;
+    }
+}
+
+.a span{
+    margin-left: 33.259rem;
+}
+
+.b span{
+    margin-left:46.8rem;
+}
+
+.c span{
+    margin-left:43.9rem;
+}
